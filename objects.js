@@ -1,2 +1,2 @@
-createUser = {name:  'Petya', city: 'Paris'};
+let createUser = {name:  'Petya', city: 'Paris'};
 console.log(createUser); 
