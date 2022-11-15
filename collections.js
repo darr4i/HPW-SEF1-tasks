@@ -6,7 +6,8 @@ telephoneBook = [
         {name: 'Pasha Svetlanov', phone: '+380967895673'}
        ];
 
-    for (let key in telephoneBook) {
-        const value = telephoneBook[key];
-        console.log({key, value});
+   const findPhoneByName = (name) => {
+    for (const obj of telephoneBook) {
+        if (obj.name === name) return obj.phone;
+    };
 };
