@@ -1,1 +1,1 @@
-# tasksFromCourseHPW
+# Задания с курса HPW SEF1
