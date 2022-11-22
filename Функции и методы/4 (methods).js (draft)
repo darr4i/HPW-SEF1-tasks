@@ -1,0 +1,21 @@
+'use strict'
+
+const iface = {
+    m1: x => [x],
+    m2: function xyToArray(x, y) {
+    return [x, y];
+  },
+    m3: (x, y, z) => {
+    return [x, y, z];
+  }
+}
+for (let el in iface) {
+    console.log('[' + el + " = " + iface[(el)] + ']')}
+
+//[m1 = x => [x]]
+[m2 = function xyToArray(x, y) {
+    return [x, y];
+  }]
+[m3 = (x, y, z) => {
+    return [x, y, z];
+  }]
